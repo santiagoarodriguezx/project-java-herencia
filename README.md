@@ -1,18 +1,25 @@
-## Getting Started
+ 🚗 Sistema de Componentes Vehiculares
+ project-java-herencia
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📝 Descripción
+Este proyecto implementa un sistema de componentes vehiculares en Java, utilizando herencia y polimorfismo para modelar diferentes partes de un vehículo.
 
-## Folder Structure
+## 🔧 Componentes
+- 🏭 `ComponenteVehicular`: Clase base para todos los componentes
+- 🛠️ `Motor`: Gestiona el funcionamiento del motor
+- ⚙️ `Transmision`: Controla el sistema de transmisión
+- 🛞 `Neumatico`: Maneja información de los neumáticos
+- 🧱 `Chasis`: Administra datos del chasis
+- 🛑 `SistemaFrenos`: Controla el sistema de frenos
 
-The workspace contains two folders by default, where:
+## 💡 Funcionalidades
+- Mostrar información de cada componente
+- Encender motor
+- Cambiar marchas
+- Verificar presión de neumáticos
+- Calcular carga máxima del chasis
+- Verificar sistema ABS
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 📸 Captura de pantalla del sistema
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![alt text](image.png)
